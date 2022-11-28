@@ -2,7 +2,7 @@ import telebot
 from openpyxl import load_workbook
 from telebot import types
 
-bot = telebot.TeleBot('5743624493:AAH1KRDwhERIsIeDCJ5U0jDyLQS5k6urMkk')
+bot = telebot.TeleBot('-')
 
 class OpenGroups:
     info = type(str)
