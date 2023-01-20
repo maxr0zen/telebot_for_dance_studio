@@ -4,7 +4,7 @@ from telebot import types
 
 bot = telebot.TeleBot('-')
 
-class OpenGroups:
+class OpenGroups(AllGroup):
     info = type(str)
     button = type(telebot.types.KeyboardButton)
     text = type(str)
